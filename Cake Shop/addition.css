@@ -1,0 +1,304 @@
+body a{
+    text-decoration: none;
+}
+body a:hover{
+    color: red;
+    text-decoration: underline;
+}
+.think:hover{
+    
+    text-decoration: underline;
+}
+.top{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px ;
+    margin-bottom: 15px;
+}
+.search{
+    margin-right: 100;
+    cursor: pointer;
+}
+.whislist{
+    margin-right: 90px;
+    cursor: pointer;
+}
+.whislist:hover{
+    color: red;
+}
+.cart{
+    margin-right: 80px;
+    cursor: pointer;
+}
+.user{
+    margin-right: 70px;
+    cursor: pointer;
+}
+.top a{
+    /* letter-spacing: 2px; */
+    margin-right: 60px;
+    word-spacing: 3px;
+}
+.main{
+  padding: 5px;
+  display: flex;
+  justify-content: space-evenly; 
+}
+#about{
+    margin-top: 20px;
+}
+.main-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 40px 0;
+    background-image: url(./assets/about\ bg\ 2.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.col-1 h2{
+    width: 400px;
+    margin-left: 370px;
+    font-style: oblique;
+}
+.col-1 h3{
+    width: 350px;
+    padding: 10px;
+    margin-left: 250px;
+    font-style: oblique;
+    text-align-last: center; 
+}
+.col-1 p{
+    width: 330px;
+    margin-left: 280px;
+    font-style: oblique;
+    font-size: larger;
+}
+.col-2 img{
+    margin-top: 30px;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;  
+    justify-content: space-evenly; 
+}
+.items{
+    /* border: 1px solid rgb(192, 25, 53); */
+    margin-left: 10px;
+    padding: 10px;
+    margin-top: 20px; 
+    margin-bottom: 10px;
+}
+/* .items h2{
+    text-align: center;
+} */
+.items img{
+    width: 330px;
+    height: 230px;
+    border: 1px solid lightslategray;
+    transition:width 2s ,height 2s,transform 1s; 
+    opacity: 0.5;   
+}
+.items img:hover{
+    border: 1px solid black;
+    width: 350px;
+    height: 250px;
+    opacity: 1;
+}
+.items figcaption{
+    text-align: center;
+    text-decoration: none;
+    font-size:x-large;
+    margin-top: 10px;
+    cursor: pointer;  
+}
+.items figcaption:hover{
+    color:red;
+}
+.heading{
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 10px;
+}
+.details{
+    display: flex;
+    /* justify-content: space-around; */
+    position: relative;
+    padding: 10px;
+    margin: 10px; 
+}
+.details i{
+    color:red;
+}
+.taste{
+    position:absolute;
+    top: 10px;
+    left: 150px;
+}
+.varieties{
+    position: absolute;
+    top: 50px;
+    left: 350px;
+}
+.best-offers{
+    position: absolute;
+    top: 90px;
+    left: 550px;
+}
+.gifts{
+    position: absolute;
+    top: 130px;
+    left: 750px
+}
+.hygiene{
+    position: absolute;
+    top: 170px;
+    left:950px
+}
+
+.testimonials h3{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.review{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.review img{
+    width: 100px; 
+    border-radius: 190px;
+}
+.review p{
+    margin-left: 30px;
+}
+.testimonials{
+    margin-top: 50px;
+    width: 500px;
+    border: 1px solid white;
+    margin-left: 430px;
+    box-shadow: 1px 1px 2px;
+    border-radius: 7px;
+}
+.comment{
+    width: 400px;
+    margin-left: 60px;
+    margin-top: 20px;
+    text-align-last: center;
+}
+.comment i{
+    color: yellow;
+    margin-bottom: 20px;
+}
+.newsletter{
+    margin-top: 230px;
+}
+.news h3{
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 60px;
+}
+.news p{
+    font-size: larger;
+    text-align: center;
+    margin-left: 60px;
+    margin-top: 10px;
+}
+.news input{
+    padding: 20px;
+    margin-left: 520px;
+}
+.news button{
+    padding: 20px;
+    margin-top: 10px;
+    background-color: orangered;
+    cursor: pointer;
+}
+#contact{
+    margin-top: 10px;
+}
+.c-details span{
+    font-weight: 100px;
+    font-size: small; 
+}
+
+.all{
+    display: flex;
+    padding: 5px;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+#contact{
+    color: black;
+    height: 550px;
+    font-weight: 200;
+    /* background-image: url(https://thumb.ac-illust.com/a4/a4c76a433c411f415b695d142b8b14db_t.jpeg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color:lightcoral;
+}
+.contact-info p{
+    padding: 10px;
+    line-height: 30px;
+} 
+.icons{
+    display: flex;
+    /* justify-content: space-evenly; */
+    margin-left: 260px;
+    line-height: 5px;
+    margin-top: 20px;
+}
+.social-icon i{
+    margin-left: 30px;
+}
+.social-icon i:hover{
+    cursor: pointer;
+}
+#whywe{
+    background-image: url(https://media.istockphoto.com/id/821760914/vector/pastel-multi-color-gradient-vector-background-simple-form-and-blend-with-copy-space.jpg?s=612x612&w=0&k=20&c=adwrMs3MkPLXMb69AYSoMpnCfLSAb_D3PCQRGGXiM5g=);
+    /* width: 1170px; */
+    height: 500px;
+    /* margin-left: 80px; */
+    background-size: cover;
+}
+.details{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-size: larger;
+}
+.enquiry{
+    margin-bottom: 40px;
+    margin-top: 20px;
+
+}
+.form{
+    margin-left: 90px;
+    margin-top: 1px;
+    
+}
+.form input{
+    border-radius: 9px;
+    margin-top: 10px;
+    padding: 10px;
+    margin-left: 150px;
+    width: 230px;
+}
+.form textarea{
+    border-radius: 9px;
+    margin-top: 10px;
+    padding: 19px;
+    margin-left: 150px;
+    width: 230px;
+}
+.form button{
+    margin-top: 15px;
+    width: 150px;
+    padding: 15px;
+    margin-left: 195px;
+    border-radius: 5px;
+    background-color: lightcyan;
+}
+.form button:hover{
+    background-color: lightgoldenrodyellow;
+    cursor: pointer;
+}
